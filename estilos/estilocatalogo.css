@@ -1,0 +1,106 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;    
+}
+h1, h2{
+    text-align: center; 
+}
+img{
+    width: 100px;
+    height: 100px;
+}
+.clear{
+    clear: both;
+}
+body {
+    width: 100%;
+    margin-top: 1em;
+    text-align: center;     
+}
+#contenedor {
+    
+    background-color: rgb(255, 255, 255);
+    width: 60%;
+    margin: 0 auto 0 auto;
+    text-align: left;    
+    border: 0.06em solid black;
+ 
+}
+header{    
+    color: white;
+    text-align: left;
+    background-color: rgb(4, 0, 255);
+    display: block;
+}
+header h2{
+    float: right;
+    color: white;
+    text-align: right;
+    background-color: rgb(4, 0, 255);
+
+}
+
+header form {
+    margin: 0 auto;
+    padding : 5px;
+    text-align: left;
+    width: 90%;
+}
+#contenido {
+    margin-left: 1em;  
+    margin-top: 1em; 
+    text-align: center;
+        
+}
+<!--
+
+.boton {
+    
+    background-color: white;
+
+    border-radius: 15px;
+
+    color: rgb(4, 0, 255);
+    padding: 10px 10px;
+    margin: 4px;
+    text-align: center;
+
+    font-size: 16px;
+    
+}
+
+-->
+form{
+    margin: 0 auto;
+    padding : 5px;
+    text-align: left;
+    width: 90%;
+}
+
+table{
+    margin: 0 auto;
+    text-align: left;
+    border-collapse: collapse;
+    width: 100%;
+    border: 0;
+}
+
+th, td {
+    border: 0;
+    text-align: center;
+    padding: 5px;
+
+}
+
+input[type="text"]{ 
+    border:1px solid rgb(0, 0, 0);    
+    border-radius:2px;
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+    padding-right:30px;
+}
+label{
+    font-size: 18px;
+}

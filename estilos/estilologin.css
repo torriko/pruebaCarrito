@@ -1,0 +1,81 @@
+body{
+    text-align: center;
+}
+.campoFormulario {
+    margin-bottom: 5px;
+}
+
+#formulario_login {
+    border: 1px solid rgb(51, 29, 250);
+    border-radius: 10px;
+    padding: 10px 15px;
+    width: 350px;
+    margin: 200px auto;
+}
+
+#formulario_login label {
+    color: #000;
+    width: 80px;
+    display: inline-block;
+    padding-left: 20px;
+}
+
+#formulario_registro h2, #formulario_login h2 {
+    color: 7;
+    text-align: center;
+    margin: 10px 0;
+}
+
+#formulario_login form, #formulario_registro form {
+    padding: 30px 30px 10px;
+}
+
+#formulario_login input[type="submit"], #formulario_registro input[type="submit"] {
+    background: rgb(23, 125, 221);
+    color: #fff;
+    padding: 2px 30px;
+    border-radius: 5px;
+
+    display: block;
+    margin: 20px auto;
+}
+
+#formulario_login input[type="button"], #formulario_registro input[type="button"] {
+    background: rgb(23, 125, 221);
+    color: #fff;
+    padding: 2px 30px;
+    border-radius: 5px;
+
+    display: block;
+    margin: 20px auto;
+}
+
+#formulario_login input[type="submit"]:hover, #formulario_registro input[type="submit"]:hover {
+    background: rgb(23, 125, 221);
+}
+
+#formulario_login input[type="text"], #formulario_login input[type="password"],
+#formulario_login input[type="text"]:hover, #formulario_login input[type="text"]:selected,
+.obligatorio {
+    color: red;
+}
+
+.errorUsuario {
+    color: red;
+    text-align: center;
+}
+
+.boton_personalizado {
+    background: rgb(23, 125, 221);
+    color: #fff;
+    padding: 2px 30px;
+    border-radius: 5px;
+    text-align: center;
+    display: block;
+    margin: 20px auto;
+
+}
+
+h2{
+    color: red;
+}

@@ -6,7 +6,9 @@ class VistaLogin
     public $login= "<html lang=\"es\">
 <head>
     <meta charset=\"UTF-8\">
-    <title>Autentificacion de Usuarios</title>
+
+    <title>Autentificacion </title>
+
     <link rel=\"stylesheet\" type=\"text/css\" href=\"estilos/estilologin.css\"/>
 </head>
 

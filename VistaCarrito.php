@@ -12,7 +12,7 @@ class VistaCarrito
         <head>
             <meta charset='UTF-8'>
             <meta name='viewport' content='width=device-width, initial-scale=1.0'>
-            <title>Listado de Productos en Carrito Modificado por torriko1</title>
+            <title>Listado de Productos en Carrito</title>
             <link rel='stylesheet' href='estilos/estilocatalogo.css'>
         </head>";
 
